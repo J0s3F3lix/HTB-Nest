@@ -218,13 +218,10 @@ Ahora a por el root donde en el siguiente directorio
  Veremos dos archivos
  `Debug Mode Password.txt` y `Debug Mode Password.txt:Password`
 
-```
-allinfo "Debug Mode Password.txt"
-```
-No encontramos nada interesante por lo que veremos el otro archivo debug mode password.txt:password, este archivo en particular tiene un formato {File-Streams} que investigando me encontre que:
+Veremos el archivo `debug mode password.txt:password` este archivo en particular tiene un formato **File-Streams** que investigando me encontre que:
 https://docs.microsoft.com/en-us/windows/win32/fileio/file-streams
 
->es una secuencia de bytes. En el sistema de archivos NTFS, las secuencias contienen los datos que se escriben en un archivo y que brindan más información sobre un archivo que los atributos y propiedades. Por ejemplo, puede crear una secuencia que contenga palabras clave de búsqueda o la identidad de la cuenta de usuario que crea un archivo.
+>Es una secuencia de bytes. En el sistema de archivos NTFS, las secuencias contienen los datos que se escriben en un archivo y que brindan más información sobre un archivo que los atributos y propiedades. Por ejemplo, puede crear una secuencia que contenga palabras clave de búsqueda o la identidad de la cuenta de usuario que crea un archivo.
 
 ```
 more "Debug Mode Password.txt:Password"
