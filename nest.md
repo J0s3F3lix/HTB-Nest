@@ -249,9 +249,9 @@ https://pastebin.com/RfZhBcq9
 Luego debemos ir a:
 https://dotnetfiddle.net/Z9MZYl 
 
-Copiamos y pegamos debemo parametrizar lo siguiente
-Language: C#
-Compiler: .net 4.7.2
+Pegamos el codigo encontrado parametrizar lo siguiente
+`Language: C#`
+`Compiler: .net 4.7.2`
 
 Ejecutamos y el resultado sera:
 The magical rootdance key is:
